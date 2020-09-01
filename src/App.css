@@ -1,0 +1,41 @@
+body{
+ background-color: azure; 
+}
+
+.App{
+  background-color: black;
+  min-height: 500px;
+  width: 600px;
+  margin: 40px auto;
+}
+
+#fractal-todo input{
+  background-color: brown;
+  height: 40px;
+  margin: 25px;
+  font-size: medium;
+  padding: 0 25px;
+  color: white;
+  border: 0;
+  border-radius: 20px;
+}
+
+#fractal-todo input:focus{
+  outline: none;
+}
+
+#fractal-todo input::placeholder{
+  color: white;
+  opacity: 0.5;
+}
+
+#fractal-todo button{
+  background-color: green;
+  cursor: pointer;
+  height: 40px;
+  width: 60px;
+  color: white;
+  font-weight: bolder;
+  border-radius: 6px;
+  border: 0;
+}

@@ -1,0 +1,42 @@
+.list{
+    color: black;
+    height: 50px;
+    width: 500px;
+    background-color: violet;
+    border-radius: 7px;
+    margin: 20px auto;
+}
+
+.list p{
+    padding: 10px;
+    position: relative;
+}
+
+.list span{
+    right: 10px;
+    cursor: pointer;
+    color: white;
+    position: absolute;
+}
+
+.list p checkBoxTodo{
+    left: 10px;
+    cursor: pointer;
+    position: absolute;
+    color: black;
+}
+
+.favicons{
+    color: black;
+}
+
+.list p input{
+    background-color: transparent;
+    border: 0;
+    font-size: medium;
+
+}
+
+.list p input:focus{
+    outline: none;
+}
